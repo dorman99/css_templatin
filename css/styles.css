@@ -1,0 +1,134 @@
+.container {
+    background-color: palegreen;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.wrapper3 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+
+#one {
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#two {
+    background-color: teal;
+}
+
+#three {
+    background-color: cornflowerblue;
+    grid-row: 2/4;
+}
+
+#four {
+    background-color: indigo;
+    grid-column: 2/4;
+}
+
+#five {
+    background-color: maroon;
+}
+
+#six {
+    background-color: darkcyan;
+}
+
+#seven {
+    grid-row: 1/4;
+    background-color: black;
+}
+
+#eight {
+    grid-column: 2/4;
+    background-color: blueviolet;
+}
+
+#nine {
+    background-color: darksalmon;
+}
+
+#ten {
+    background-color: brown;
+}
+ #eleven {
+     background-color: darkblue;
+ }
+
+ #twelve {
+     background-color: black;
+ }
+
+ #triteen {
+     background-color: darkgreen;
+ }
+
+ #fourteen {
+     background-color: darkgoldenrod;
+ }
+
+ #fivteen {
+     background-color: darkred;
+ }
+
+ #sixteen {
+     background-color: darksalmon;
+ }
+
+ #seventeen {
+     background-color: darkslateblue;
+ }
+
+ #eightteen {
+     background-color: darkorange;
+ }
+
+ #nineteen{
+     background-color: darkviolet;
+ }
+
+ #twenty {
+     background-color: darkslategray;
+ }
+
+ #twentyone {
+     background-color: darkgrey;
+ }
+
+.box {
+    margin: 5px;
+    color: whitesmoke;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.wrapper3 {
+    padding: 10px;
+}
+
+div.wrapper {
+   padding: 10px;
+}
+div.wrapper2 {
+    padding: 10px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
